@@ -1673,6 +1673,26 @@
                             "description": "The URL of the AVS operator's X",
                             "example": "https://twitter.com/acme"
                           },
+                          "createdAtBlock": {
+                            "type": "number",
+                            "description": "The block number when the withdrawal was recorded by EigenExplorer",
+                            "example": 19912470
+                          },
+                          "updatedAtBlock": {
+                            "type": "number",
+                            "description": "The block number when the withdrawal was last updated",
+                            "example": 19912470
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "description": "The time stamp when the withdrawal was recorded by EigenExplorer",
+                            "example": "2024-07-03T19:59:47.000Z"
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "description": "The time stamp when the withdrawal was last updated",
+                            "example": "2024-07-03T19:59:47.000Z"
+                          },
                           "shares": {
                             "type": "array",
                             "items": {
@@ -1796,6 +1816,10 @@
                           "metadataTelegram",
                           "metadataWebsite",
                           "metadataX",
+                          "createdAtBlock",
+                          "updatedAtBlock",
+                          "createdAt",
+                          "updatedAt",
                           "shares",
                           "totalStakers"
                         ]
@@ -1970,6 +1994,26 @@
                             "description": "The URL of the AVS operator's X",
                             "example": "https://twitter.com/acme"
                           },
+                          "createdAtBlock": {
+                            "type": "number",
+                            "description": "The block number when the withdrawal was recorded by EigenExplorer",
+                            "example": 19912470
+                          },
+                          "updatedAtBlock": {
+                            "type": "number",
+                            "description": "The block number when the withdrawal was last updated",
+                            "example": 19912470
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "description": "The time stamp when the withdrawal was recorded by EigenExplorer",
+                            "example": "2024-07-03T19:59:47.000Z"
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "description": "The time stamp when the withdrawal was last updated",
+                            "example": "2024-07-03T19:59:47.000Z"
+                          },
                           "shares": {
                             "type": "array",
                             "items": {
@@ -2093,6 +2137,10 @@
                           "metadataTelegram",
                           "metadataWebsite",
                           "metadataX",
+                          "createdAtBlock",
+                          "updatedAtBlock",
+                          "createdAt",
+                          "updatedAt",
                           "shares",
                           "totalStakers"
                         ]
@@ -2252,6 +2300,26 @@
                       "description": "The URL of the AVS operator's X",
                       "example": "https://twitter.com/acme"
                     },
+                    "createdAtBlock": {
+                      "type": "number",
+                      "description": "The block number when the withdrawal was recorded by EigenExplorer",
+                      "example": 19912470
+                    },
+                    "updatedAtBlock": {
+                      "type": "number",
+                      "description": "The block number when the withdrawal was last updated",
+                      "example": 19912470
+                    },
+                    "createdAt": {
+                      "type": "string",
+                      "description": "The time stamp when the withdrawal was recorded by EigenExplorer",
+                      "example": "2024-07-03T19:59:47.000Z"
+                    },
+                    "updatedAt": {
+                      "type": "string",
+                      "description": "The time stamp when the withdrawal was last updated",
+                      "example": "2024-07-03T19:59:47.000Z"
+                    },
                     "shares": {
                       "type": "array",
                       "items": {
@@ -2375,6 +2443,10 @@
                     "metadataTelegram",
                     "metadataWebsite",
                     "metadataX",
+                    "createdAtBlock",
+                    "updatedAtBlock",
+                    "createdAt",
+                    "updatedAt",
                     "shares",
                     "totalStakers"
                   ]
