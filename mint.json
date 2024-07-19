@@ -43,19 +43,6 @@
     ],
     "navigation": [
         {
-            "group": "Introduction",
-            "pages": ["introduction", "changelog", "roadmap"]
-        },
-        {
-            "group": "Data",
-            "pages": [
-                "data/avs",
-                "data/operators",
-                "data/stakers",
-                "data/strategies"
-            ]
-        },
-        {
             "group": "API Documentation",
             "pages": [
                 "api-reference/introduction",
@@ -82,7 +69,11 @@
                 "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-name",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers"
+                "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers",
+                "api-reference/endpoint/metrics/retrieve-historical-avs-count",
+                "api-reference/endpoint/metrics/retrieve-historical-operator-count",
+                "api-reference/endpoint/metrics/retrieve-historical-staker-count"
+
             ]
         },
         {
@@ -114,6 +105,13 @@
             ]
         },
         {
+            "group": "strategies",
+            "pages": [
+                "api-reference/endpoint/strategies/getTotalTvl",
+                "api-reference/endpoint/strategies/getStrategyTvl"
+            ]
+        },
+        {
             "group": "Withdrawals",
             "pages": [
                 "api-reference/endpoint/withdrawals/retrieve-all-withdrawals",
@@ -129,3 +127,4 @@
         "thumbsRating": true
     }
 }
+
