@@ -99,7 +99,9 @@
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-withdrawals",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-deposits"
+                "api-reference/endpoint/metrics/retrieve-total-number-of-deposits",
+                "api-reference/endpoint/metrics/retrieve-deployment-ratio",
+                "api-reference/endpoint/metrics/retrieve-restaking-ratio"
             ]
         },
         {
