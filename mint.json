@@ -135,6 +135,7 @@
             "group": "Operators",
             "pages": [
                 "api-reference/endpoint/operators/retrieve-all-operators",
+                "api-reference/endpoint/operators/retrieve-all-operator-addresses",
                 "api-reference/endpoint/operators/retrieve-an-operator-by-address"
             ]
         },
