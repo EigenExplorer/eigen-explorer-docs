@@ -161,6 +161,10 @@
         {
             "group": "Deposits",
             "pages": ["api-reference/endpoint/deposits/retrieve-all-deposits"]
+        },
+        {
+            "group": "Rewards",
+            "pages": ["api-reference/endpoint/rewards/retrieve-strategies-with-rewards"]
         }
     ],
     "footerSocials": {
