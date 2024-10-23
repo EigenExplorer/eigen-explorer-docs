@@ -3134,7 +3134,7 @@
             "schema": {
               "type": "string",
               "description": "Case-insensitive search query",
-              "example": "blockless"
+              "example": "eigen"
             }
           },
           {
@@ -3708,7 +3708,7 @@
             "schema": {
               "type": "string",
               "description": "Case-insensitive search query",
-              "example": "blockless"
+              "example": "eigen"
             }
           },
           {
@@ -4651,7 +4651,7 @@
             "schema": {
               "type": "string",
               "description": "Case-insensitive search query",
-              "example": "blockless"
+              "example": "eigen"
             }
           },
           {
@@ -5023,7 +5023,7 @@
             "schema": {
               "type": "string",
               "description": "Case-insensitive search query",
-              "example": "blockless"
+              "example": "eigen"
             }
           },
           {
@@ -5457,7 +5457,7 @@
             "schema": {
               "type": "string",
               "description": "Case-insensitive search query",
-              "example": "blockless"
+              "example": "eigen"
             }
           },
           {
