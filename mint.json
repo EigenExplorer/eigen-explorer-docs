@@ -94,7 +94,7 @@
                 "api-reference/endpoint/metrics/retrieve-total-tvl",
                 "api-reference/endpoint/metrics/retrieve-beacon-chain-restaking-tvl",
                 "api-reference/endpoint/metrics/retrieve-restaking-strategies-tvl",
-                "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-name",
+                "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-address",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers",
