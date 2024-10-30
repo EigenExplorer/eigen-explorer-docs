@@ -70,7 +70,7 @@
             ]
         },
         {
-            "group": "API Documentation",
+            "group": "Getting Started",
             "pages": [
                 "api-reference/introduction",
                 "api-reference/support",
@@ -82,92 +82,110 @@
             ]
         },
         {
-            "group": "System",
+            "group": "API Endpoints",
             "pages": [
-                "api-reference/endpoint/system/retrieve-api-server-version",
-                "api-reference/endpoint/system/retrieve-api-server-status"
+                {
+                    "group": "System Status",
+                    "icon": "solar-system",
+                    "pages": [
+                        "api-reference/endpoint/system/retrieve-api-server-version",
+                        "api-reference/endpoint/system/retrieve-api-server-status"
+                    ]
+                },
+                {
+                    "group": "Ecosystem Metrics",
+                    "icon": "arrow-up-right-dots",
+                    "pages": [
+                        "api-reference/endpoint/metrics/retrieve-summary-metrics",
+                        "api-reference/endpoint/metrics/retrieve-total-tvl",
+                        "api-reference/endpoint/metrics/retrieve-beacon-chain-restaking-tvl",
+                        "api-reference/endpoint/metrics/retrieve-restaking-strategies-tvl",
+                        "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-address",
+                        "api-reference/endpoint/metrics/retrieve-total-number-of-avs",
+                        "api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators",
+                        "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers",
+                        "api-reference/endpoint/metrics/retrieve-total-number-of-withdrawals",
+                        "api-reference/endpoint/metrics/retrieve-total-number-of-deposits",
+                        "api-reference/endpoint/metrics/retrieve-deployment-ratio",
+                        "api-reference/endpoint/metrics/retrieve-restaking-ratio"
+                    ]
+                },
+                {
+                    "group": "Historical Metrics",
+                    "icon": "rectangle-history",
+                    "pages": [
+                        "api-reference/endpoint/historical/retrieve-historical-tvl",
+                        "api-reference/endpoint/historical/retrieve-historical-tvl-beacon-chain",
+                        "api-reference/endpoint/historical/retrieve-historical-tvl-restaking-by-strategy-address",
+                        "api-reference/endpoint/historical/retrieve-historical-avs-count",
+                        "api-reference/endpoint/historical/retrieve-historical-operators-count",
+                        "api-reference/endpoint/historical/retrieve-historical-stakers-count",
+                        "api-reference/endpoint/historical/retrieve-historical-withdrawals-count",
+                        "api-reference/endpoint/historical/retrieve-historical-deposits-count",
+                        "api-reference/endpoint/historical/retrieve-historical-avs-aggregate",
+                        "api-reference/endpoint/historical/retrieve-historical-operators-aggregate",
+                        "api-reference/endpoint/historical/retrieve-historical-withdrawal-aggregate",
+                        "api-reference/endpoint/historical/retrieve-historical-deposit-aggregate"
+                    ]
+                },
+                {
+                    "group": "AVS",
+                    "icon": "cubes",
+                    "pages": [
+                        "api-reference/endpoint/avs/retrieve-all-avs",
+                        "api-reference/endpoint/avs/retrieve-all-avs-addresses",
+                        "api-reference/endpoint/avs/retrieve-an-avs-by-address",
+                        "api-reference/endpoint/avs/retrieve-all-stakers-for-a-given-avs-address",
+                        "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address",
+                        "api-reference/endpoint/avs/retrieve-all-rewards-for-a-given-avs-address"
+                    ]
+                },
+                {
+                    "group": "Operators",
+                    "icon": "circle-nodes",
+                    "pages": [
+                        "api-reference/endpoint/operators/retrieve-all-operators",
+                        "api-reference/endpoint/operators/retrieve-all-operator-addresses",
+                        "api-reference/endpoint/operators/retrieve-an-operator-by-address",
+                        "api-reference/endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address"
+                    ]
+                },
+                {
+                    "group": "Stakers",
+                    "icon": "badge-dollar",
+                    "pages": [
+                        "api-reference/endpoint/stakers/retrieve-all-stakers",
+                        "api-reference/endpoint/stakers/retrieve-a-staker-by-address",
+                        "api-reference/endpoint/stakers/retrieve-all-withdrawals-by-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-queued-withdrawals-by-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-queued-and-withdrawable-withdrawals-by-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-completed-withdrawals-by-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-all-deposits-by-staker-address"
+                    ]
+                },
+                {
+                    "group": "Withdrawals",
+                    "icon": "money-bill-transfer",
+                    "pages": [
+                        "api-reference/endpoint/withdrawals/retrieve-all-withdrawals",
+                        "api-reference/endpoint/withdrawals/retrieve-withdrawal-by-withdrawal-root"
+                    ]
+                },
+                {
+                    "group": "Deposits",
+                    "icon": "money-from-bracket",
+                    "pages": [
+                        "api-reference/endpoint/deposits/retrieve-all-deposits"
+                    ]
+                },
+                {
+                    "group": "Restaking Token Rewards",
+                    "icon": "treasure-chest",
+                    "pages": [
+                        "api-reference/endpoint/rewards/retrieve-strategies-with-rewards"
+                    ]
+                }
             ]
-        },
-        {
-            "group": "Metrics",
-            "pages": [
-                "api-reference/endpoint/metrics/retrieve-summary-metrics",
-                "api-reference/endpoint/metrics/retrieve-total-tvl",
-                "api-reference/endpoint/metrics/retrieve-beacon-chain-restaking-tvl",
-                "api-reference/endpoint/metrics/retrieve-restaking-strategies-tvl",
-                "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-address",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-avs",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-withdrawals",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-deposits",
-                "api-reference/endpoint/metrics/retrieve-deployment-ratio",
-                "api-reference/endpoint/metrics/retrieve-restaking-ratio"
-            ]
-        },
-        {
-            "group": "Historical",
-            "pages": [
-                "api-reference/endpoint/historical/retrieve-historical-tvl",
-                "api-reference/endpoint/historical/retrieve-historical-tvl-beacon-chain",
-                "api-reference/endpoint/historical/retrieve-historical-tvl-restaking-by-strategy-address",
-                "api-reference/endpoint/historical/retrieve-historical-avs-count",
-                "api-reference/endpoint/historical/retrieve-historical-operators-count",
-                "api-reference/endpoint/historical/retrieve-historical-stakers-count",
-                "api-reference/endpoint/historical/retrieve-historical-withdrawals-count",
-                "api-reference/endpoint/historical/retrieve-historical-deposits-count",
-                "api-reference/endpoint/historical/retrieve-historical-avs-aggregate",
-                "api-reference/endpoint/historical/retrieve-historical-operators-aggregate",
-                "api-reference/endpoint/historical/retrieve-historical-withdrawal-aggregate",
-                "api-reference/endpoint/historical/retrieve-historical-deposit-aggregate"
-            ]
-        },
-        {
-            "group": "AVS",
-            "pages": [
-                "api-reference/endpoint/avs/retrieve-all-avs",
-                "api-reference/endpoint/avs/retrieve-all-avs-addresses",
-                "api-reference/endpoint/avs/retrieve-an-avs-by-address",
-                "api-reference/endpoint/avs/retrieve-all-stakers-for-a-given-avs-address",
-                "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address",
-                "api-reference/endpoint/avs/retrieve-all-rewards-for-a-given-avs-address"
-            ]
-        },
-        {
-            "group": "Operators",
-            "pages": [
-                "api-reference/endpoint/operators/retrieve-all-operators",
-                "api-reference/endpoint/operators/retrieve-all-operator-addresses",
-                "api-reference/endpoint/operators/retrieve-an-operator-by-address",
-                "api-reference/endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address"
-            ]
-        },
-        {
-            "group": "Stakers",
-            "pages": [
-                "api-reference/endpoint/stakers/retrieve-all-stakers",
-                "api-reference/endpoint/stakers/retrieve-a-staker-by-address",
-                "api-reference/endpoint/stakers/retrieve-all-withdrawals-by-staker-address",
-                "api-reference/endpoint/stakers/retrieve-queued-withdrawals-by-staker-address",
-                "api-reference/endpoint/stakers/retrieve-queued-and-withdrawable-withdrawals-by-staker-address",
-                "api-reference/endpoint/stakers/retrieve-completed-withdrawals-by-staker-address",
-                "api-reference/endpoint/stakers/retrieve-all-deposits-by-staker-address"
-            ]
-        },
-        {
-            "group": "Withdrawals",
-            "pages": [
-                "api-reference/endpoint/withdrawals/retrieve-all-withdrawals",
-                "api-reference/endpoint/withdrawals/retrieve-withdrawal-by-withdrawal-root"
-            ]
-        },
-        {
-            "group": "Deposits",
-            "pages": ["api-reference/endpoint/deposits/retrieve-all-deposits"]
-        },
-        {
-            "group": "Rewards",
-            "pages": ["api-reference/endpoint/rewards/retrieve-strategies-with-rewards"]
         }
     ],
     "footerSocials": {
