@@ -20,13 +20,13 @@
     },
     "topbarLinks": [
         {
-            "name": "Community",
+            "name": "Homepage",
             "url": "https://t.me/eigenexplorer"
         }
     ],
     "topbarCtaButton": {
-        "name": "Homepage",
-        "url": "https://eigenexplorer.com"
+        "name": "Dashboard",
+        "url": "https://dashboard.eigenexplorer.com"
     },
     "tabs": [
         {
@@ -74,6 +74,7 @@
             "pages": [
                 "api-reference/introduction",
                 "api-reference/support",
+                "api-reference/rate-limit",
                 "api-reference/errors",
                 "api-reference/methodology",
                 "api-reference/changelog",
@@ -175,7 +176,5 @@
         "discord": "https://discord.gg/3aTdnXgGNg",
         "github": "https://github.com/eigenexplorer"
     },
-    "feedback": {
-        "thumbsRating": true
-    }
+    "feedback": { "thumbsRating": true, "suggestEdit": true }
 }
