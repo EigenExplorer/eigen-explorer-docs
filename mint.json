@@ -128,7 +128,8 @@
                 "api-reference/endpoint/avs/retrieve-all-avs-addresses",
                 "api-reference/endpoint/avs/retrieve-an-avs-by-address",
                 "api-reference/endpoint/avs/retrieve-all-stakers-for-a-given-avs-address",
-                "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address"
+                "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address",
+                "api-reference/endpoint/avs/retrieve-all-rewards-for-a-given-avs-address"
             ]
         },
         {
@@ -136,7 +137,8 @@
             "pages": [
                 "api-reference/endpoint/operators/retrieve-all-operators",
                 "api-reference/endpoint/operators/retrieve-all-operator-addresses",
-                "api-reference/endpoint/operators/retrieve-an-operator-by-address"
+                "api-reference/endpoint/operators/retrieve-an-operator-by-address",
+                "api-reference/endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address"
             ]
         },
         {
