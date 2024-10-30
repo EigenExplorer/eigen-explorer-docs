@@ -95,12 +95,14 @@
                 "api-reference/endpoint/metrics/retrieve-total-tvl",
                 "api-reference/endpoint/metrics/retrieve-beacon-chain-restaking-tvl",
                 "api-reference/endpoint/metrics/retrieve-restaking-strategies-tvl",
-                "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-name",
+                "api-reference/endpoint/metrics/retrieve-a-strategy-tvl-by-address",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers",
                 "api-reference/endpoint/metrics/retrieve-total-number-of-withdrawals",
-                "api-reference/endpoint/metrics/retrieve-total-number-of-deposits"
+                "api-reference/endpoint/metrics/retrieve-total-number-of-deposits",
+                "api-reference/endpoint/metrics/retrieve-deployment-ratio",
+                "api-reference/endpoint/metrics/retrieve-restaking-ratio"
             ]
         },
         {
@@ -127,14 +129,17 @@
                 "api-reference/endpoint/avs/retrieve-all-avs-addresses",
                 "api-reference/endpoint/avs/retrieve-an-avs-by-address",
                 "api-reference/endpoint/avs/retrieve-all-stakers-for-a-given-avs-address",
-                "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address"
+                "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address",
+                "api-reference/endpoint/avs/retrieve-all-rewards-for-a-given-avs-address"
             ]
         },
         {
             "group": "Operators",
             "pages": [
                 "api-reference/endpoint/operators/retrieve-all-operators",
-                "api-reference/endpoint/operators/retrieve-an-operator-by-address"
+                "api-reference/endpoint/operators/retrieve-all-operator-addresses",
+                "api-reference/endpoint/operators/retrieve-an-operator-by-address",
+                "api-reference/endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address"
             ]
         },
         {
@@ -159,6 +164,10 @@
         {
             "group": "Deposits",
             "pages": ["api-reference/endpoint/deposits/retrieve-all-deposits"]
+        },
+        {
+            "group": "Rewards",
+            "pages": ["api-reference/endpoint/rewards/retrieve-strategies-with-rewards"]
         }
     ],
     "footerSocials": {
