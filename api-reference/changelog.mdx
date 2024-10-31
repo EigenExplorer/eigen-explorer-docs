@@ -1,13 +1,12 @@
 ---
 title: 'API Changelog'
+mode: 'wide'
 description: 'Latest updates and announcements'
 icon: bolt
 ---
 
-## August 20, 2024 - Sorting Capabilities And Enhanced Operator Data
-
----
-
+<Update label='2024-08-20' description='v0.2.1'>
+## Sorting Capabilities and Enhanced Operator Data
 We are excited to announce the latest updates to the EigenExplorer API, which include new sorting capabilities and additional data for the Operator endpoints.
 
 ### Key Updates:
@@ -18,9 +17,10 @@ We are excited to announce the latest updates to the EigenExplorer API, which in
 
 This update further enhances the flexibility and comprehensiveness of the EigenExplorer API, making it easier for developers to access and analyze data within the EigenLayer ecosystem.
 
-## August 15, 2024 - Version 0.2.0 Release
+</Update>
 
----
+<Update label='2024-08-15' description='v0.2.0'>
+## Version 0.2.0 Release
 
 <Frame type='glass'>
     <img
@@ -33,51 +33,51 @@ We're excited to introduce version 0.2.0 of the EigenExplorer API, one of our la
 updates to date, bringing new features, enhanced metrics, and improved performance
 and accuracy for developers working with the EigenLayer ecosystem.
 
-### New Features and Enhancements
+### Enhanced Metrics
 
-#### 1. Enhanced Metrics
+-   **Strategy TVL by Name**: Added tvlEth to provide the Total Value Locked in ETH for restaking strategies.
+-   **Entity Growth Tracking**: Added 24-hour and 7-day growth metrics for AVS count, operators, and stakers.
+-   **Withdrawal and Deposit Totals**: New endpoints to monitor total withdrawals and deposits.
 
-1. **Strategy TVL by Name**: Added tvlEth to provide the Total Value Locked in ETH for restaking strategies.
-2. **Entity Growth Tracking**: Added 24-hour and 7-day growth metrics for AVS count, operators, and stakers.
-3. **Withdrawal and Deposit Totals**: New endpoints to monitor total withdrawals and deposits.
+### Historical Data Tracking
 
-#### 2. Historical Data Tracking
+-   **TVL History**: Track historical TVL data, including overall, Beacon Chain, and strategy-specific TVL.
+-   **Entity Count History**: Monitor historical counts for AVS, operators, stakers, withdrawals, and deposits.
+-   **Historical Aggregated Data**: New routes for historical aggregate data, including TVL, AVS, operators, withdrawals, and deposits with customizable filters.
 
-1. **TVL History**: Track historical TVL data, including overall, Beacon Chain, and strategy-specific TVL.
-2. **Entity Count History**: Monitor historical counts for AVS, operators, stakers, withdrawals, and deposits.
-3. **Historical Aggregated Data**: New routes for historical aggregate data, including TVL, AVS, operators, withdrawals, and deposits with customizable filters.
+### New Deposit Routes
 
-#### 3. New Deposit Routes
+-   `/deposits`: Query deposit history with filters for staker address, token, and strategy.
+-   `/stakers/{address}/deposits`: Simplified access to deposits by staker address.
 
-1. `/deposits`: Query deposit history with filters for staker address, token, and strategy.
-2. `/stakers/{address}/deposits`: Simplified access to deposits by staker address.
+### Improved Query Options
 
-#### 4. Improved Query Options
+-   **Curated Metadata for AVS**: Retrieve enhanced metadata for AVS entities with an optional withCuratedMetadata flag.
+-   **Operator Strategy Details**: Access detailed operator activities, including restaked strategies.
 
-1. **Curated Metadata for AVS**: Retrieve enhanced metadata for AVS entities with an optional withCuratedMetadata flag.
-2. **Operator Strategy Details**: Access detailed operator activities, including restaked strategies.
+</Update>
 
-## June 16, 2024 - Major Updates on Infrastructure
-
----
+<Update label='2024-06-16' description='v0.1.6'>
+## Major Updates on Infrastructure
 
 Over the past few weeks, we have been upgrading our infrastructure to enhance the performance and reliability of the EigenExplorer API. We are excited to announce the completion of these upgrades, which include:
 
-1. Migrating our infrastructure to Google Cloud Platform (GCP) with elastic scaling capabilities.
-2. Implementing a new caching layer to improve response times.
-3. Revamping the seeding operation to enhance data availability and reliability.
+-   Migrating our infrastructure to Google Cloud Platform (GCP) with elastic scaling capabilities.
+-   Implementing a new caching layer to improve response times.
+-   Revamping the seeding operation to enhance data availability and reliability.
 
 Additionally, we've made several improvements to the API:
 
-1. API health checks and versioning for better monitoring and maintenance.
-2. Providing consistent TVL data in both native and ETH values.
-3. Adding new routes to track all stakers.
+-   API health checks and versioning for better monitoring and maintenance.
+-   Providing consistent TVL data in both native and ETH values.
+-   Adding new routes to track all stakers.
 
 We anticipate a few major updates in the coming weeks, so stay tuned for more exciting news!
 
-## May 20, 2024 - EigenLayer Withdrawal Data
+</Update>
 
----
+<Update label='2024-05-20' description='v0.1.5'>
+## EigenLayer Withdrawal Data
 
 <Frame type='glass'>
     <img
@@ -88,27 +88,35 @@ We anticipate a few major updates in the coming weeks, so stay tuned for more ex
 
 We are thrilled to announce the addition of two new types of API routes for querying EigenLayer withdrawal data. Efficient withdrawal management is essential for overseeing and accounting for staking activities in the EigenLayer ecosystem. Now you can directly access `withdrawals` and `stakers/:address/withdrawals` routes to retrieve detailed withdrawal information.
 
-1. Individual Routes - `/withdrawals`
-   We’ve introduced brand new routes to query all withdrawal history or retrieve individual withdrawal data. Now, you can filter withdrawals by staker address, delegated operator, strategy address, and withdrawal status. This added flexibility allows you to pinpoint specific operators and combine various query parameters to suit your needs.
+### Individual Routes - `/withdrawals`
 
-1. Nested Routes - `/stakers/{address}/withdrawals`
-   To make your REST queries even smoother, we’ve rolled out nested routes that simplify the process of retrieving withdrawals for specific stakers. Use `/stakers/:address/withdrawals` to list all withdrawals for a staker. Plus, you can access queued, queued and withdrawable, and completed withdrawals through dedicated routes for more precise queries.
+We’ve introduced brand new routes to query all withdrawal history or retrieve individual withdrawal data. Now, you can filter withdrawals by staker address, delegated operator, strategy address, and withdrawal status. This added flexibility allows you to pinpoint specific operators and combine various query parameters to suit your needs.
+
+### Nested Routes - `/stakers/{address}/withdrawals`
+
+To make your REST queries even smoother, we’ve rolled out nested routes that simplify the process of retrieving withdrawals for specific stakers. Use `/stakers/:address/withdrawals` to list all withdrawals for a staker. Plus, you can access queued, queued and withdrawable, and completed withdrawals through dedicated routes for more precise queries.
 
 With these new withdrawal data routes, you can now access detailed information on staker withdrawals, greatly enhancing your ability to manage and analyze staking activities. As always, if you have any feedback or suggestions, feel free to reach out to us. We look forward to seeing how you leverage these new routes in your applications!
 
-## May 14, 2024 - Data Quality, Standardization, and Consistency Improvements
+</Update>
 
-Thanks to our users and community, we have crossed 100k requests and reached 3.4k unique users in the past month. In our latest update, we've focused on enhancing data quality, standardization, and consistency across the EigenExplorer platform. Key improvements include:
+<Update label='2024-05-14' description='v0.1.4'>
+## Data Quality, Standardization, and Consistency Improvements
 
-1. **Data Methodology Page**: Added a [Data Methodology](https://docs.eigenexplorer.com/api-reference/methodology) page to provide transparency on data sources and processing methods.
-2. **Beacon Chain TVL Calculation**: Updated and aligned the calculation of Beacon Chain TVL with the methodology used on the EigenLayer Dashboard, thanks to feedback from our user [Karl](https://twitter.com/karl_0x).
-3. **AVS Count and Listing**: Fixed the AVS count and listing display for AVSs without metadata.
-4. **Eigen Token and Strategy**: Included `Eigen` token and strategy data.
-5. **TVL Conversion Standardization**: Unified the TVL conversion to `ETH` for all LST strategies.
+Thanks to our users and community, we have crossed 100k requests and reached 3.4k unique users in the past month. In our latest update, we've focused on enhancing data quality, standardization, and consistency across the EigenExplorer platform.
 
-## May 2, 2024 - TVL Breakdown
+Key improvements include:
 
----
+-   **Data Methodology Page**: Added a [Data Methodology](https://docs.eigenexplorer.com/api-reference/methodology) page to provide transparency on data sources and processing methods.
+-   **Beacon Chain TVL Calculation**: Updated and aligned the calculation of Beacon Chain TVL with the methodology used on the EigenLayer Dashboard, thanks to feedback from our user [Karl](https://twitter.com/karl_0x).
+-   **AVS Count and Listing**: Fixed the AVS count and listing display for AVSs without metadata.
+-   **Eigen Token and Strategy**: Included `Eigen` token and strategy data.
+-   **TVL Conversion Standardization**: Unified the TVL conversion to `ETH` for all LST strategies.
+
+</Update>
+
+<Update label='2024-05-02' description='v0.1.3'>
+## TVL Breakdown
 
 <Frame type='glass'>
     <img
@@ -128,17 +136,19 @@ Now, for selected routes, you can optionally add a `withTvl` flag to include the
 
 This feature provides a detailed breakdown of the TVL for different strategies, saving time to calculate the TVL from shares in your aplication.
 
-## May 1, 2024 - Additional API Routes and Usability Improvements
+</Update>
 
----
+<Update label='2024-05-01' description='v0.1.2'>
+## Additional API Routes and Usability Improvements
 
 We're excited to announce the addition of two new routes to the EigenExplorer API, [Retrieve AVS Operators](https://docs.eigenexplorer.com/api-reference/endpoint/metrics/retrieve-total-number-of-avs-operators) and [Retrieve AVS Stakers](https://docs.eigenexplorer.com/api-reference/endpoint/metrics/retrieve-total-number-of-avs-stakers). These routes allow developers to track the current operators and stakers associated with a specific AVS address. We are excited to see how the new endpoints will be utilized in the various AVS applications.
 
 Further enhancing the EigenExplorer platform, we've implemented significant usability improvements. Our redesigned error handling provides a top-tier developer experience, ensuring clearer and more actionable feedback. Additionally, we've enriched our API documentation with detailed examples and comprehensive response schemas, going the extra mile to support developers in integrating and leveraging our API effectively.
 
-## April 19, 2024 - EigenLayer Ethereum Mainnet API
+</Update>
 
----
+<Update label='2024-04-19' description='v0.1.1'>
+## EigenLayer Ethereum Mainnet API
 
 <Frame type='glass'>
     <img
@@ -151,8 +161,22 @@ We are excited to announce the release of the EigenLayer Ethereum Mainnet API, f
 
 You can now access both the Ethereum Mainnet API at `https://api.eigenexplorer.com` and the Holesky Testnet API at `https://api-holesky.eigenexplorer.com` to programmatically retrieve EigenLayer data.
 
-## April 15, 2024 - Initial API Release
+</Update>
 
----
+<Update label='2024-04-15' description='v0.1.0'>
+## Initial API Release
 
-Today we are releasing the first version of the EigenExplorer API, allowing developers to access EigenLayer AVS data programmatically. The API provides endpoints for retrieving general EigenLayer metrics, AVS, operators, and stakers data, as well as strategy information. In the upcoming days, we will be adding more endpoints and features to the API, including historical data and API authentication. We are excited to see what you will build with the EigenExplorer API!
+<Frame type='glass'>
+    <img
+        src='/public/images/changelog/04-19.png'
+        alt='Changelog Image for April 19th'
+    />
+</Frame>
+
+Today we are releasing the first version of the EigenExplorer API, allowing developers to access EigenLayer AVS data programmatically.
+
+The API provides endpoints for retrieving general EigenLayer metrics, AVS, operators, and stakers data, as well as strategy information. In the upcoming days, we will be adding more endpoints and features to the API, including historical data and API authentication.
+
+We are excited to see what you will build with the EigenExplorer API!
+
+</Update>

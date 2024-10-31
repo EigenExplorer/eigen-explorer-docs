@@ -3,6 +3,6 @@
         "generate-docs": "npx @mintlify/scraping@latest openapi-file ./api-reference/openapi.json  -o ./api-reference/endpoint"
     },
     "dependencies": {
-        "mintlify": "^4.0.132"
+        "mintlify": "^4.0.261"
     }
 }
