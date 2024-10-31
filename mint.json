@@ -1,15 +1,22 @@
 {
     "$schema": "https://mintlify.com/schema.json",
     "name": "EigenExplorer Docs",
+    "theme": "prism",
+    "background": { "style": "grid" },
+    "sidebar": { "items": "border" },
     "logo": {
         "dark": "/public/logo/logo-dark.svg",
         "light": "/public/logo/logo-light.svg"
     },
     "favicon": "/public/logo.svg",
     "colors": {
-        "primary": "#27272a",
+        "primary": "#71717a",
         "light": "#ffffff",
         "dark": "#27272a",
+        "background": {
+            "light": "#ffffff",
+            "dark": "#131419"
+        },
         "anchors": {
             "from": "#52525b",
             "to": "#a1a1aa"
@@ -29,6 +36,7 @@
         "url": "https://dashboard.eigenexplorer.com"
     },
     "tabs": [
+        { "name": "Data Reference", "url": "data-reference" },
         {
             "name": "API Reference",
             "url": "api-reference"
@@ -69,6 +77,27 @@
                 "glossaries/avs-token"
             ]
         },
+
+        {
+            "group": "Getting Started",
+            "pages": ["data-reference/introduction"]
+        },
+        {
+            "group": "Metrics",
+            "pages": ["data-reference/metrics"]
+        },
+        {
+            "group": "Entities",
+            "pages": [
+                "data-reference/avs",
+                "data-reference/operators",
+                "data-reference/stakers"
+            ]
+        },
+        {
+            "group": "Mechanisms",
+            "pages": ["data-reference/rewards"]
+        },
         {
             "group": "Getting Started",
             "pages": [
@@ -76,7 +105,6 @@
                 "api-reference/support",
                 "api-reference/rate-limit",
                 "api-reference/errors",
-                "api-reference/methodology",
                 "api-reference/changelog",
                 "api-reference/api-status"
             ]
@@ -179,7 +207,7 @@
                     ]
                 },
                 {
-                    "group": "Restaking Token Rewards",
+                    "group": "Rewards",
                     "icon": "treasure-chest",
                     "pages": [
                         "api-reference/endpoint/rewards/retrieve-strategies-with-rewards"
