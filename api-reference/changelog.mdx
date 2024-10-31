@@ -5,6 +5,36 @@ description: 'Latest updates and announcements'
 icon: bolt
 ---
 
+<Update label='2024-10-30' description='v0.3.0'>
+## Introducing Rewards API
+
+Rewards are fundamental to the restaking ecosystem, serving as the primary incentive mechanism that drives market efficiency and participant engagement. The EigenExplorer Rewards API now provides developers with comprehensive access to this crucial data, enabling deeper insights into the restaking economy.
+
+For detailed information about reward calculations, visit the [Rewards Reference](../data-reference/rewards.mdx) in our Data Reference section.
+
+### Rewards API
+
+Added rewards API with comprehensive tracking and APY calculations for Operators & AVSs. Specifically, you can now query
+
+-   [All rewards for a given AVS](./endpoint/avs/retrieve-all-rewards-for-a-given-avs-address)
+-   [Rewards information for a given operator](./endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address)
+-   [Rewards information for the accepted restaking tokens](./endpoint/rewards/retrieve-strategies-with-rewards)
+
+### Other Enhancements
+
+-   Enhanced TVL metrics with comprehensive change tracking across Beacon TVL and Restaking TVL
+-   Improved TVL calculations to include ETH value and shares hash verification
+-   Refined percentage change calculations across all ratio metrics for greater accuracy
+-   Upgraded to a node-based cache store, significantly improving caching performance
+-   Optimized data seeding process through reduced I/O operations and efficient batch updates
+-   Adjusted testnet data seeding frequency to better balance resource utilization
+-   Streamlined deposit and withdrawal processing for enhanced efficiency
+-   Implemented robust full-text search functionality for AVS and Operator discovery
+-   Added new Deployment and Restaking Ratio endpoints with change tracking capabilities
+-   Enhanced AVS metadata system to include additional fields such as GitHub repositories and token addresses
+
+</Update>
+
 <Update label='2024-08-20' description='v0.2.1'>
 ## Sorting Capabilities and Enhanced Operator Data
 We are excited to announce the latest updates to the EigenExplorer API, which include new sorting capabilities and additional data for the Operator endpoints.
