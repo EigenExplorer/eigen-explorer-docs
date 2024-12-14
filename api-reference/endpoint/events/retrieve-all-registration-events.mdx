@@ -3,5 +3,8 @@ openapi: get /events/registration-status
 ---
 
 <Note>
-  The default date range between `startAt` and `endAt` is 7 days. The maximum allowed date range is 30 days.
+  The default date range between `startAt` and `endAt` is 7 days, with `startAt` set 7 days before `endAt`.  
+  
+  By default, `endAt` is set to the current timestamp (now).  
+  The maximum allowed date range is 30 days.  
 </Note>
