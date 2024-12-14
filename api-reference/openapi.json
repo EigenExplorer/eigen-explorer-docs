@@ -5170,8 +5170,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -5180,8 +5179,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -5443,8 +5441,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -5453,8 +5450,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -7253,8 +7249,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -7263,8 +7258,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -7500,8 +7494,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -7510,8 +7503,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -9530,8 +9522,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -9540,8 +9531,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -9777,8 +9767,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -9787,8 +9776,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -10008,8 +9996,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -10018,8 +10005,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -10546,8 +10532,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -10556,8 +10541,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -10777,8 +10761,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -10787,8 +10770,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -11044,8 +11026,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -11054,8 +11035,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -11269,8 +11249,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -11279,8 +11258,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
@@ -11547,8 +11525,7 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format",
-              "default": "2024-12-05T22:44:12.267Z"
+              "description": "Start date in ISO string format"
             }
           },
           {
@@ -11557,8 +11534,7 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format",
-              "default": "2024-12-12T22:44:12.267Z"
+              "description": "End date in ISO string format"
             }
           },
           {
