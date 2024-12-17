@@ -9510,7 +9510,7 @@
               "type": "string",
               "pattern": "^0x[a-fA-F0-9]{40}$",
               "description": "The address of the staker",
-              "example": "0x9791fdb4e9c0495efc5a1f3f9271ef226251eb34"
+              "example": "0xd4fcde9bb1d746Dd7e5463b01Dd819EE06aF25db"
             },
             "required": true
           },
@@ -9757,7 +9757,7 @@
               "type": "string",
               "pattern": "^0x[a-fA-F0-9]{40}$",
               "description": "The address of the staker",
-              "example": "0x9791fdb4e9c0495efc5a1f3f9271ef226251eb34"
+              "example": "0xd4fcde9bb1d746Dd7e5463b01Dd819EE06aF25db"
             },
             "required": true
           },
@@ -9988,7 +9988,7 @@
               "type": "string",
               "pattern": "^0x[a-fA-F0-9]{40}$",
               "description": "The address of the staker",
-              "example": "0x9791fdb4e9c0495efc5a1f3f9271ef226251eb34"
+              "example": "0xd4fcde9bb1d746Dd7e5463b01Dd819EE06aF25db"
             },
             "required": true
           },
