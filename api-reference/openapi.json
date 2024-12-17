@@ -5170,7 +5170,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -5179,7 +5180,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -5441,7 +5443,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -5450,7 +5453,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -7249,7 +7253,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -7258,7 +7263,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -7494,7 +7500,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -7503,7 +7510,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -9522,7 +9530,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -9531,7 +9540,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -9767,7 +9777,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -9776,7 +9787,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -9996,7 +10008,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -10005,7 +10018,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -10532,7 +10546,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -10541,7 +10556,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -10761,7 +10777,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -10770,7 +10787,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -11026,7 +11044,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -11035,7 +11054,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -11249,7 +11269,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -11258,7 +11279,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
@@ -11525,7 +11547,8 @@
             "description": "Start date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "Start date in ISO string format"
+              "description": "Start date in ISO string format",
+              "example": "2024-11-15T00:00:00.000Z"
             }
           },
           {
@@ -11534,7 +11557,8 @@
             "description": "End date in ISO string format",
             "schema": {
               "type": "string",
-              "description": "End date in ISO string format"
+              "description": "End date in ISO string format",
+              "example": "2024-12-15T00:00:00.000Z"
             }
           },
           {
