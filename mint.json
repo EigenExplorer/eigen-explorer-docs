@@ -165,7 +165,9 @@
                         "api-reference/endpoint/avs/retrieve-an-avs-by-address",
                         "api-reference/endpoint/avs/retrieve-all-stakers-for-a-given-avs-address",
                         "api-reference/endpoint/avs/retrieve-all-operators-for-a-given-avs-address",
-                        "api-reference/endpoint/avs/retrieve-all-rewards-for-a-given-avs-address"
+                        "api-reference/endpoint/avs/retrieve-all-rewards-for-a-given-avs-address",
+                        "api-reference/endpoint/avs/retrieve-all-reward-events-for-a-given-avs-address",
+                        "api-reference/endpoint/avs/retrieve-all-registration-events-for-a-given-avs-address"
                     ]
                 },
                 {
@@ -175,7 +177,9 @@
                         "api-reference/endpoint/operators/retrieve-all-operators",
                         "api-reference/endpoint/operators/retrieve-all-operator-addresses",
                         "api-reference/endpoint/operators/retrieve-an-operator-by-address",
-                        "api-reference/endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address"
+                        "api-reference/endpoint/operators/retrieve-all-reward-strategies-and-tokens-for-a-given-operator-address",
+                        "api-reference/endpoint/operators/retrieve-all-delegation-events-for-a-given-operator-address",
+                        "api-reference/endpoint/operators/retrieve-all-registration-events-for-a-given-operator-address"
                     ]
                 },
                 {
@@ -188,7 +192,10 @@
                         "api-reference/endpoint/stakers/retrieve-queued-withdrawals-by-staker-address",
                         "api-reference/endpoint/stakers/retrieve-queued-and-withdrawable-withdrawals-by-staker-address",
                         "api-reference/endpoint/stakers/retrieve-completed-withdrawals-by-staker-address",
-                        "api-reference/endpoint/stakers/retrieve-all-deposits-by-staker-address"
+                        "api-reference/endpoint/stakers/retrieve-all-deposits-by-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-all-delegation-events-for-a-given-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-all-deposit-events-for-a-given-staker-address",
+                        "api-reference/endpoint/stakers/retrieve-all-withdrawal-events-for-a-given-staker-address"
                     ]
                 },
                 {
@@ -211,6 +218,17 @@
                     "icon": "treasure-chest",
                     "pages": [
                         "api-reference/endpoint/rewards/retrieve-strategies-with-rewards"
+                    ]
+                },
+                {
+                    "group": "Events",
+                    "icon": "calendar",
+                    "pages": [
+                        "api-reference/endpoint/events/retrieve-all-delegation-events",
+                        "api-reference/endpoint/events/retrieve-all-deposit-events",
+                        "api-reference/endpoint/events/retrieve-all-withdrawal-events",
+                        "api-reference/endpoint/events/retrieve-all-reward-events",
+                        "api-reference/endpoint/events/retrieve-all-registration-events"
                     ]
                 }
             ]
