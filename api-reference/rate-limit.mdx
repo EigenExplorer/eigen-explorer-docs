@@ -4,8 +4,28 @@ description: 'Learn about EigenExplorer’s API rate limits'
 icon: 'monitor-waveform'
 ---
 
-A rate limit of **30 requests per minute** is currently enforced for the **Holesky Testnet** to promote fair usage. This helps prevent excessive usage by a single user from impacting the performance and availability of the API for others.
+<Warning>
+    Starting January 6th, 2025, API key authentication will be required. We are
+    currently transitioning to mandatory API key usage.
+</Warning>
 
-If the rate limit is exceeded, a `429 Too Many Requests` response will be returned.
+Rate limits are enforced for both Ethereum Mainnet and Holesky Testnet API endpoints.
 
-If you need to incrase your rate limit, please contact us via [Support Telegram](https://t.me/+siHEtj56TNdmZmU1).
+### Network-Specific Limits
+
+<CardGroup cols={2}>
+    <Card title='Ethereum Mainnet' icon='m'>
+        100 Requests per Minute
+    </Card>
+    <Card title='Holesky Testnet' icon='t'>
+        30 Requests per Minute
+    </Card>
+</CardGroup>
+
+### Rate Limit Exceeded
+
+If you exceed the rate limit, the API will return a `429 Too Many Requests` response.
+
+### Increasing Your Rate Limit
+
+Need higher limits? Contact our support team through [Telegram](https://t.me/+siHEtj56TNdmZmU1) to discuss your requirements.
