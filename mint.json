@@ -27,8 +27,8 @@
     },
     "topbarLinks": [
         {
-            "name": "Homepage",
-            "url": "https://t.me/eigenexplorer"
+            "name": "Developer Dashboard",
+            "url": "https://developer.eigenexplorer.com"
         }
     ],
     "topbarCtaButton": {
@@ -99,14 +99,22 @@
             "pages": ["data-reference/rewards"]
         },
         {
-            "group": "Getting Started",
+            "group": "Introduction",
             "pages": [
                 "api-reference/introduction",
                 "api-reference/support",
+                "api-reference/pricing",
                 "api-reference/rate-limit",
                 "api-reference/errors",
                 "api-reference/changelog",
                 "api-reference/api-status"
+            ]
+        },
+        {
+            "group": "Quick Start",
+            "pages": [
+                "api-reference/quickstart/get-started",
+                "api-reference/quickstart/mainnet-and-holesky-api"
             ]
         },
         {

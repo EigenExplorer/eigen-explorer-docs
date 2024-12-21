@@ -1,7 +1,7 @@
 ---
 title: 'Introduction'
 description: 'Get started with EigenExplorer API'
-icon: 'star-of-life'
+icon: 'right'
 ---
 
 ## Welcome
@@ -11,29 +11,37 @@ icon: 'star-of-life'
     section**](/lat/introduction).
 </Note>
 
+<Warning>
+    Starting January 6th, 2025, API key authentication will be required. We are
+    currently transitioning to mandatory API key usage.
+</Warning>
+
 EigenExplorer provides an array of API endpoints organized around REST for community users and developers to quickly access data and information about the EigenLayer ecosystem.
 
 Our API features predictable resource-oriented URLs, accepts form-encoded request bodies, returns JSON-encoded responses, and adheres to standard HTTP response codes, authentication methods, and verbs.
 
-The API is free to use and open to the public.
+## Get Started
 
-## Ethereum Mainnet and Holesky Testnet API
+Get started with the EigenExplorer API and make your first API request:
 
-We support both Ethereum Mainnet and Holesky Testnet API. The mainnet API uses the following base URL:
+<Card
+    title='Get Started'
+    horizontal
+    icon='right'
+    href='./quickstart/get-started'
+>
+    Get started with the EigenExplorer API
+</Card>
 
-```
-https://api.eigenexplorer.com
-```
+## Supported Networks
 
-while the Holeksy testnet API uses the following base URL:
+We support both the **Ethereum Mainnet** and **Holesky Testnet** APIs. Learn how to switch between networks here:
 
-```
-https://api-holesky.eigenexplorer.com
-```
-
-The API endpoints are the same for both networks, but the data returned will be different. Please make sure to use the correct base URL when making requests.
-
-<Note>
-    Please note that the sample requests and responses in this documentation are
-    based on the Ethereum Mainnet API.
-</Note>
+<Card
+    title='Ethereum Mainnet and Holesky Testnet API'
+    horizontal
+    icon='arrows-repeat'
+    href='./quickstart/mainnet-and-holesky-api'
+>
+    Switch between Ethereum Mainnet and Holesky Testnet API
+</Card>
