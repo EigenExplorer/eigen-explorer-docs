@@ -5,25 +5,58 @@ description: 'Latest updates and announcements'
 icon: bolt
 ---
 
+<Update label='2024-12-20' description='Developer Dashboard'>
+
+## Introducing the EigenExplorer Developer Dashboard
+
+<Frame type='glass'>
+    <img src='/public/images/changelog/ee-dev-dashboard.png' />
+</Frame>
+
+We’re thrilled to announce an upgrade to our restaking API service: the new [EigenExplorer Developer Dashboard](https://developer.eigenexplorer.com). This dashboard offers robust API key management and a more streamlined development experience.
+
+## Key Features
+
+### API Key Authentication
+
+**Beginning January 6, 2025, all requests must include an API key.** This change ensures enhanced security and allows us to deliver more personalized development tools.
+
+### Updated Rate Limits
+
+To maintain high-quality service for everyone, the following rate limits apply to both Ethereum Mainnet and Holesky Testnet:
+
+-   100 requests per minute
+-   10,000 requests per month
+
+For more information on rate limits and best practices, please consult our [documentation](/api-reference/rate-limit).
+
+## Getting Started
+
+The new Developer Dashboard is live! Check out our [Quick Start Guide](/api-reference/quickstart/get-started) to set up your API keys and begin using the updated restaking features.
+
+</Update>
+
 <Update label='2024-12-14' description='v0.3.4'>
 ## Introducing Events API
 Events are an essential part of the restaking ecosystem, capturing key activities such as delegations, withdrawals, depsoits, etc. 
-The EigenExplorer Events API provides developers with structured access to these critical recrods, offering a window into the dynamic interactions that drive EigenLayer's functionality. 
+The EigenExplorer Events API provides developers with structured access to these critical recrods, offering a window into the dynamic interactions that drive EigenLayer's functionality.
 
 ### Events API
+
 These endpoints are thoughtfully categorized to ensure seamless integration and exploration:
 
 -   [**Global Event Routes**](./endpoint/events/retrieve-all-delegation-events)  
-Access ecosystem-wide activities like delegations, withdrawals, registrations and more.
+    Access ecosystem-wide activities like delegations, withdrawals, registrations and more.
 
 -   [**AVS Event Routes**](./endpoint/avs/retrieve-all-reward-events-for-a-given-avs-address)  
-Explore AVS-specific rewards and registration status changes.
+    Explore AVS-specific rewards and registration status changes.
 
 -   [**Operator Event Routes**](./endpoint/operators/retrieve-all-delegation-events-for-a-given-operator-address)  
-Track operator delegations, share changes, and other metrics.
+    Track operator delegations, share changes, and other metrics.
 
 -   [**Staker Event Routes**](./endpoint/stakers/retrieve-all-delegation-events-for-a-given-staker-address)  
-Monitor staker deposits, withdrawals, and delegations.
+    Monitor staker deposits, withdrawals, and delegations.
+
 </Update>
 
 <Update label='2024-10-30' description='v0.3.0'>
