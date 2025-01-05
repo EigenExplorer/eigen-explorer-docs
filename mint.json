@@ -23,6 +23,11 @@
         }
     },
     "api": {
+        "baseUrl": "https://api.eigenexplorer.com",
+        "auth": {
+            "method": "key",
+            "name": "X-API-Token"
+        },
         "maintainOrder": true
     },
     "topbarLinks": [
