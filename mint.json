@@ -119,6 +119,7 @@
             "group": "Quick Start",
             "pages": [
                 "api-reference/quickstart/get-started",
+                "api-reference/quickstart/api-key",
                 "api-reference/quickstart/mainnet-and-holesky-api"
             ]
         },
