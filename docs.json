@@ -235,11 +235,7 @@
     },
     "api": {
         "mdx": {
-            "server": "https://api.eigenexplorer.com",
-            "auth": {
-                "method": "key",
-                "name": "X-API-Token"
-            }
+            "server": "https://api.eigenexplorer.com"
         }
     },
     "background": {
