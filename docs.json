@@ -222,6 +222,34 @@
                                     "api-reference/endpoint/events/retrieve-all-reward-events",
                                     "api-reference/endpoint/events/retrieve-all-registration-events"
                                 ]
+                            },
+                            {
+                                "group": "Operator-Sets",
+                                "icon": "layer-group",
+                                "pages": [
+                                    {
+                                        "group": "Avs",
+                                        "icon": "cubes",
+                                        "pages": [
+                                            "api-reference/endpoint/operator-sets/avs/retrieve-all-operator-sets",
+                                            "api-reference/endpoint/operator-sets/avs/retrieve-operator-set",
+                                            "api-reference/endpoint/operator-sets/avs/retrieve-all-operator-set-operators",
+                                            "api-reference/endpoint/operator-sets/avs/retrieve-all-allocations",
+                                            "api-reference/endpoint/operator-sets/avs/retrieve-all-slashes"
+                                        ]
+                                    },
+                                    {
+                                        "group": "Operators",
+                                        "icon": "circle-nodes",
+                                        "pages": [
+                                            "api-reference/endpoint/operator-sets/operator/retrieve-all-operator-sets",
+                                            "api-reference/endpoint/operator-sets/operator/retrieve-all-allocations",
+                                            "api-reference/endpoint/operator-sets/operator/retrieve-all-slashes",
+                                            "api-reference/endpoint/operator-sets/operator/retrieve-magnitudes",
+                                            "api-reference/endpoint/operator-sets/operator/retrieve-allocation-delay"
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
