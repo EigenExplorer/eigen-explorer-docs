@@ -209,7 +209,8 @@
                                 "group": "Rewards",
                                 "icon": "treasure-chest",
                                 "pages": [
-                                    "api-reference/endpoint/rewards/retrieve-strategies-with-rewards"
+                                    "api-reference/endpoint/rewards/retrieve-strategies-with-rewards",
+                                    "api-reference/endpoint/rewards/retrieve-programmatic-incentives"
                                 ]
                             },
                             {
